@@ -7,31 +7,21 @@ import {
 
 export function Header() {
   return (
-    <Flex // eslint-disable-next-line prettier/prettier
+    <Flex
       w="100%"
       maxWidth={1480}
       h="20"
       mx="auto"
       mt="4"
       px="6"
-      align="center"
-    >
-      <Text // eslint-disable-next-line prettier/prettier
-        w="64"
-        fontSize="3xl"
-        fontWeight="bold"
-        letterSpacing="tight"
-      >
+      align="center">
+      <Text w="64" fontSize="3xl" fontWeight="bold" letterSpacing="tight">
         Dashboard
-        <Text // eslint-disable-next-line prettier/prettier
-          as="span"
-          ml="1"
-          color="pink.500"
-        >
+        <Text as="span" ml="1" color="pink.500">
           .
         </Text>
       </Text>
-      <Flex // eslint-disable-next-line prettier/prettier
+      <Flex
         maxWidth={400}
         as="label"
         flex="1"
@@ -42,9 +32,8 @@ export function Header() {
         color="gray.200"
         position="relative"
         bg="gray.800"
-        borderRadius="full"
-      >
-        <Input // eslint-disable-next-line prettier/prettier
+        borderRadius="full">
+        <Input
           color="gray.50"
           variant="unstyled"
           px="4"
@@ -54,18 +43,14 @@ export function Header() {
         />
         <Icon fontSize="20" as={RiSearchLine} />
       </Flex>
-      <Flex // eslint-disable-next-line prettier/prettier
-        align="center"
-        ml="auto"
-      >
-        <HStack // eslint-disable-next-line prettier/prettier
+      <Flex align="center" ml="auto">
+        <HStack
           spacing="8"
           mx="8"
           pr="8"
           color="gray.300"
           borderRightWidth={1}
-          borderColor="gray.700"
-        >
+          borderColor="gray.700">
           <Icon fontSize="20" as={RiNotificationLine} />
           <Icon fontSize="20" as={RiUserAddLine} />
         </HStack>

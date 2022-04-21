@@ -1,7 +1,12 @@
 import { Flex, Icon, Input } from "@chakra-ui/react";
 import { RiSearchLine } from "react-icons/ri";
 
+//Controlled components
+//Uncontrolled components
+
 export function SearchBox() {
+  //const [search,setSearch] = useState('')
+
   return (
     <Flex
       maxWidth={400}
@@ -14,7 +19,8 @@ export function SearchBox() {
       color="gray.200"
       position="relative"
       bg="gray.800"
-      borderRadius="full">
+      borderRadius="full"
+    >
       <Input
         color="gray.50"
         variant="unstyled"

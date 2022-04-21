@@ -36,8 +36,7 @@ export default function CreateUser() {
               <Input name="password" label="Mot de passe" />
               <Input
                 name="password_confirmation"
-                label="Confirmation mot de passe
-"
+                label="Confirmation mot de passe"
               />
             </SimpleGrid>
           </VStack>

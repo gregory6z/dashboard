@@ -12,7 +12,6 @@ const Chart = dynamic(() => import("react-apexcharts"), {
 });
 
 const options: ApexOptions = {
-  colors: [theme.colors.pink[500]],
   chart: {
     toolbar: {
       show: false,

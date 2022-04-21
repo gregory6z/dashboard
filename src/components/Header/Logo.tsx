@@ -6,7 +6,8 @@ export function Logo() {
       w="64"
       fontSize={["2xl", "3xl"]}
       fontWeight="bold"
-      letterSpacing="tight">
+      letterSpacing="tight"
+    >
       Dashboard
       <Text as="span" ml="1" color="pink.500">
         .

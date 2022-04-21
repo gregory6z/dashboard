@@ -22,15 +22,18 @@ export function Header() {
       mx="auto"
       mt="4"
       px="6"
-      align="center">
+      align="center"
+    >
       {!isWideVersion && (
         <IconButton
           aria-label="Open navigation"
           icon={<Icon as={RiMenuLine} />}
-          fontSize="24"
+          fontSize="26"
           variant="unstyled"
           onClick={onOpen}
-          mr="2"></IconButton>
+          mr="2"
+          mt="2"
+        ></IconButton>
       )}
 
       <Logo />
